@@ -1,0 +1,19 @@
+# User specific aliases and functions
+
+alias rm 'rm -i'
+alias cp 'cp -i'
+alias mv 'mv -i'
+
+#set prompt='[%n@%m %c]# '
+
+bindkey -v
+
+set matchbeep = never
+set nobeep = 1
+set nobeep
+set complete = enhance
+
+set prompt="%B%n@%m (%l) %h %/ %#%b "
+set prompt2="%B%n@%m %h %/ ++%b "
+source /root/.cshrc
+
