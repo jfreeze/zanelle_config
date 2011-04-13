@@ -1,0 +1,6 @@
+source /etc/screenrc
+caption always "%{Yk} %H %0c:%s %{k}|%{G} %l %{k}|%{W} %-w%{+u}%n %t%{-u}%+w"
+multiuser on
+vbell off
+shell -$SHELL
+
